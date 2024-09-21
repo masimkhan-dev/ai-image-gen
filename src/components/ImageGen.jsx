@@ -4,7 +4,7 @@ import "./ImageGen.css";
 import { client, GenerationStyle, Status } from "imaginesdk";
 import defaultImage from "../assets/defaultimage.jpg"; // Correctly import the default image
 
-const API_KEY = "vk-gSB3Jbuc2DYgq2kyYjXZBInMhoePO0IVeXiMymJ7wOhXCmh";
+const API_KEY = "your api key";
 const DEFAULT_IMAGE = defaultImage; // Use the imported default image
 
 window.Buffer = Buffer; // Make Buffer globally available
