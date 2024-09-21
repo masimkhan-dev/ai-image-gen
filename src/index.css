@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    background-image: url('./assets/bg-body.jpg');
+    /* Adjust the path based on the location of the image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #0f0c0c;
+    -webkit-font-smoothing: antiliased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #ffffff;
+    /* Adding white text color for contrast on dark background */
+}
+
+/* Code element styling */
+code {
+    font-family: 'Source Code Pro', Menlo, Monaco, Consolas, 'Courier New', monospace;
+    background-color: #1e1e1e;
+    /* Adding background color for code blocks */
+    color: #dcdcdc;
+    /* Light text color for code */
+    padding: 2px 4px;
+    /* Padding for better readability */
+    border-radius: 4px;
+    /* Slightly round corners */
+}
+
+/* sk-f_GvlCh-bCTEMyQ0C_evAn0Cq72-FFd3R18dcndlKLT3BlbkFJrSV8BhfTFNMEXm2yWfnuOZcXDbGk16tqOvyJTE0i0A */
+span {
+    color: #00CEFF;
+    /* Changing color of inline code elements */
+    font-weight: bold;
+    /* Bolding inline code elements */
+    cursor: pointer;
+    /* Adding cursor pointer to inline code elements */
+    transition: color 0.3s ease;
+
+    /* Smooth transition for color change */
+    &:hover {
+        color: #2b4950;
+        /* Changing color on hover */
+    }
+
+    &:active {
+        color: #db2777;
+        /* Changing color on active state */
+    }
+
+    /* More styles for inline code elements can be added here */
+}
